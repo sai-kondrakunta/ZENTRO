@@ -1,0 +1,4 @@
+<!ELEMENT contact (name,email,message)>
+<!ELEMENT name (#PCDATA #REQUIRED)>
+<!ELEMENT email (#PCDATA #REQUIRED)>
+<!ELEMENT message (#PCDATA)>
